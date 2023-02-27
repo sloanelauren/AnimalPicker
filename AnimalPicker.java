@@ -13,6 +13,7 @@ public class AnimalPicker {
        else if (option == 2) {
         System.out.println("Dog ACSII art here:");
        } else {
+        System.out.println("Error Invalid Option.");
         System.out.println("Please insert cat or dog");
     }
         
