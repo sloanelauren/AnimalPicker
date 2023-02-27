@@ -9,10 +9,10 @@ public class AnimalPicker {
        while(invalid) {
        int option = sc.nextInt();
             if(option == 1) {
-                System.out.println("Cat ACSII art here:");
+                System.out.println("                      /^--^\\     /^--^\\     /^--^\\\n                      \\____/     \\____/     \\____/\n                     /      \\   /      \\   /      \\\n                    |        | |        | |        |\n                     \\__  __/   \\__  __/   \\__  __/\n|^|^|^|^|^|^|^|^|^|^|^|^\\ \\^|^|^|^/ /^|^|^|^|^\\ \\^|^|^|^|^|^|^|^|^|^|^|^|\n| | | | | | | | | | | | |\\ \\| | |/ /| | | | | | \\ \\ | | | | | | | | | | |\n########################/ /######\\ \\###########/ /#######################\n| | | | | | | | | | | | \\/| | | | \\/| | | | | |\\/ | | | | | | | | | | | |\n|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|");
                 invalid = false;
             } else if (option == 2) {
-                System.out.println("Dog ACSII art here:");
+                System.out.println("           __\n      (___()\'`;\n      /,    /`\n      \\\\\"--\\\\");
                 invalid = false;
             } else if (option != 1 || option != 2) {
                 System.out.println("Error Invalid Option.");
